@@ -35,3 +35,7 @@ libtool
 .project
 .settings/
 
+build/
+
+*.pyc
+pvfmm.egg-info/
