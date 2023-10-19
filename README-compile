@@ -21,7 +21,7 @@ because it can override GCC headers and result in broken builds. So, you have to
 its path manually.
 ```
 cd build
-cmake -DCMAKE_PREFIX_PATH=/opt/homebrew/opt/libomp/ ..
+cmake ..
 ```
 
 5. compile the code
