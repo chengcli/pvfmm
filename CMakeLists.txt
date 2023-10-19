@@ -30,7 +30,12 @@ set(MPI_CXX_SKIP_MPICXX
           "If true, the MPI-2 C++ bindings are disabled using definitions.")
           
 # required compiler features
-find_package(MPI COMPONENTS C CXX REQUIRED)
+find_package(MPI COMPONENTS CXX REQUIRED)
+# libopm is keg-only in homebrew, meaning that you need to add the path to
+# the CMAKE_PREFIX_PATH
+if(APPLE)
+    list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew/opt/libomp/")
+endif()
 find_package(OpenMP REQUIRED)
 
 # library
