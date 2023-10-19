@@ -30,7 +30,7 @@ set(MPI_CXX_SKIP_MPICXX
           "If true, the MPI-2 C++ bindings are disabled using definitions.")
           
 # required compiler features
-find_package(MPI REQUIRED)
+find_package(MPI COMPONENTS C CXX REQUIRED)
 find_package(OpenMP REQUIRED)
 
 # library
