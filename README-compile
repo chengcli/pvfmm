@@ -1,0 +1,30 @@
+# How to compile pvmm
+1. Install dependencies
+```
+brew bundle
+```
+
+2. Init git submodule
+```
+git submodule init
+git submodule update
+```
+
+3. make build directory
+```
+mkdir build
+```
+
+4. configure the code
+`libomp` is keg-only in `homebrew`, which means it was not symlinked into `/opt/homebrew`,
+because it can override GCC headers and result in broken builds. So, you have to specify
+its path manually.
+```
+cd build
+cmake -DCMAKE_PREFIX_PATH=/opt/homebrew/opt/libomp/ ..
+```
+
+5. compile the code
+```
+make -j4
+```

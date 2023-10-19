@@ -22,7 +22,7 @@ elseif("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
 endif()
 
 # Add all the SCTL relevant flags
-add_compile_options(-DHAVE_CONFIG_H -DSCTL_QUAD_T=__float128 -DSCTL_HAVE_BLAS -DSCTL_HAVE_LAPACK -DSCTL_HAVE_FFTW)
+add_compile_options(-DHAVE_CONFIG_H -DSCTL_HAVE_BLAS -DSCTL_HAVE_LAPACK -DSCTL_HAVE_FFTW)
 
 set(MPI_CXX_SKIP_MPICXX
     true

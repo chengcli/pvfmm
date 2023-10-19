@@ -17,6 +17,15 @@
 #include <sys/stat.h>
 #endif
 
+// disable SIMD for apple compilers
+#ifdef __APPLE__
+#undef __SSE__
+#undef __SSE2__
+#undef __SSE3__
+#undef __AVX__
+#undef __MIC__
+#endif
+
 #ifdef __SSE__
 #include <xmmintrin.h>
 #endif
