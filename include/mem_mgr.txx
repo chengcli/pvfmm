@@ -10,7 +10,7 @@
 #include <algorithm>
 #include <cstring>
 #include <cassert>
-#include <device_wrapper.hpp>
+#include "device_wrapper.hpp"
 
 namespace pvfmm{
 namespace mem{

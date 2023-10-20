@@ -7,8 +7,8 @@
 
 #include <vector>
 
-#include <pvfmm_common.hpp>
-#include <vector.hpp>
+#include "pvfmm_common.hpp"
+#include "vector.hpp"
 
 #ifndef _PVFMM_CHEB_UTILS_HPP_
 #define _PVFMM_CHEB_UTILS_HPP_
@@ -134,7 +134,7 @@ void cheb_img(T* A, T* B, int cheb_deg, int dir, bool neg_);
 
 }//end namespace
 
-#include <cheb_utils.txx>
+#include "cheb_utils.txx"
 
 #endif //_PVFMM_CHEB_UTILS_HPP_
 

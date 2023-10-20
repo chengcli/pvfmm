@@ -8,9 +8,9 @@
 #include <cassert>
 #include <vector>
 
-#include <pvfmm_common.hpp>
-#include <tree_node.hpp>
-#include <mem_mgr.hpp>
+#include "pvfmm_common.hpp"
+#include "tree_node.hpp"
+#include "mem_mgr.hpp"
 
 #ifndef _PVFMM_TREE_HPP_
 #define _PVFMM_TREE_HPP_
@@ -99,6 +99,6 @@ class Tree{
 
 }//end namespace
 
-#include <tree.txx>
+#include "tree.txx"
 
 #endif //_PVFMM_TREE_HPP_

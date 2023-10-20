@@ -10,7 +10,7 @@
 #include <vector>
 #include <stack>
 
-#include <pvfmm_common.hpp>
+#include "pvfmm_common.hpp"
 
 #ifndef _PVFMM_PROFILE_HPP_
 #define _PVFMM_PROFILE_HPP_

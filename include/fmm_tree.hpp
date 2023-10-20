@@ -8,11 +8,11 @@
 #include <mpi.h>
 #include <vector>
 
-#include <pvfmm_common.hpp>
-#include <interac_list.hpp>
-#include <fmm_node.hpp>
-#include <mpi_tree.hpp>
-#include <matrix.hpp>
+#include "pvfmm_common.hpp"
+#include "interac_list.hpp"
+#include "fmm_node.hpp"
+#include "mpi_tree.hpp"
+#include "matrix.hpp"
 
 #ifndef _PVFMM_FMM_TREE_HPP_
 #define _PVFMM_FMM_TREE_HPP_
@@ -111,7 +111,7 @@ class FMM_Tree: public MPI_Tree<typename FMM_Mat_t::FMMNode_t>{
 
 }//end namespace
 
-#include <fmm_tree.txx>
+#include "fmm_tree.txx"
 
 #endif //_PVFMM_FMM_TREE_HPP_
 

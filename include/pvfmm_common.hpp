@@ -59,7 +59,7 @@
 #define PVFMM_ASSERT_WITH_MSG(cond, msg)
 #endif
 
-#include <stacktrace.h>
+#include "stacktrace.h"
 
 #include <sctl.hpp>
 

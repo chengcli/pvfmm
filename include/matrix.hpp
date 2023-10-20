@@ -8,8 +8,8 @@
 #include <stdint.h>
 #include <cstdlib>
 
-#include <pvfmm_common.hpp>
-#include <vector.hpp>
+#include "pvfmm_common.hpp"
+#include "vector.hpp"
 
 #ifndef _PVFMM_MATRIX_HPP_
 #define _PVFMM_MATRIX_HPP_
@@ -192,6 +192,6 @@ std::ostream& operator<<(std::ostream& output, const Permutation<Y>& P);
 #pragma offload_attribute(pop)
 #endif
 
-#include <matrix.txx>
+#include "matrix.txx"
 
 #endif //_PVFMM_MATRIX_HPP_

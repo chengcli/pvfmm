@@ -10,9 +10,9 @@
 #include <vector>
 #include <string>
 
-#include <pvfmm_common.hpp>
-#include <mortonid.hpp>
-#include <tree.hpp>
+#include "pvfmm_common.hpp"
+#include "mortonid.hpp"
+#include "tree.hpp"
 
 #ifndef _PVFMM_MPI_TREE_HPP_
 #define _PVFMM_MPI_TREE_HPP_
@@ -156,6 +156,6 @@ class MPI_Tree: public Tree<TreeNode>{
 
 }//end namespace
 
-#include <mpi_tree.txx>
+#include "mpi_tree.txx"
 
 #endif //_PVFMM_MPI_TREE_HPP_

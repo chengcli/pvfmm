@@ -2,7 +2,7 @@
 #include <omp.h>
 #include <cstring>
 #include <algorithm>
-#include <mem_mgr.hpp>
+#include "mem_mgr.hpp"
 
 namespace pvfmm{
 

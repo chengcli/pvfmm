@@ -18,12 +18,12 @@
 #include <stdint.h>
 #include <set>
 
-#include <dtypes.h>
-#include <ompUtils.h>
-#include <parUtils.h>
-#include <mem_mgr.hpp>
-#include <mpi_node.hpp>
-#include <profile.hpp>
+#include "dtypes.h"
+#include "ompUtils.h"
+#include "parUtils.h"
+#include "mem_mgr.hpp"
+#include "mpi_node.hpp"
+#include "profile.hpp"
 
 // TODO: optimize 2:1 balance refinement (Balance21) and halo-exchange
 // (ConstructLET) for 1D and 2D periodicity.

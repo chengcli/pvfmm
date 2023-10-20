@@ -12,12 +12,12 @@
 #include <iostream>
 #include <algorithm>
 
-#include <legendre_rule.hpp>
-#include <mat_utils.hpp>
-#include <mem_mgr.hpp>
-#include <matrix.hpp>
-#include <profile.hpp>
-#include <kernel.hpp>
+#include "legendre_rule.hpp"
+#include "mat_utils.hpp"
+#include "mem_mgr.hpp"
+#include "matrix.hpp"
+#include "profile.hpp"
+#include "kernel.hpp"
 
 namespace pvfmm{
 

@@ -13,9 +13,9 @@
 #include <sys/stat.h>
 #endif
 
-#include <mem_mgr.hpp>
-#include <profile.hpp>
-#include <vector.hpp>
+#include "mem_mgr.hpp"
+#include "profile.hpp"
+#include "vector.hpp"
 
 namespace pvfmm{
 

@@ -11,16 +11,16 @@
 #include <vector>
 #include <cstdlib>
 
-#include <pvfmm_common.hpp>
-#include <interac_list.hpp>
-#include <precomp_mat.hpp>
-#include <fft_wrapper.hpp>
-#include <mpi_tree.hpp>
-#include <mpi_node.hpp>
-#include <mem_mgr.hpp>
-#include <vector.hpp>
-#include <matrix.hpp>
-#include <kernel.hpp>
+#include "pvfmm_common.hpp"
+#include "interac_list.hpp"
+#include "precomp_mat.hpp"
+#include "fft_wrapper.hpp"
+#include "mpi_tree.hpp"
+#include "mpi_node.hpp"
+#include "mem_mgr.hpp"
+#include "vector.hpp"
+#include "matrix.hpp"
+#include "kernel.hpp"
 
 #ifndef _PVFMM_FMM_PTS_HPP_
 #define _PVFMM_FMM_PTS_HPP_
@@ -247,7 +247,7 @@ class FMM_Pts{
 
 }//end namespace
 
-#include <fmm_pts.txx>
+#include "fmm_pts.txx"
 
 #endif //_PVFMM_FMM_PTS_HPP_
 

@@ -9,7 +9,7 @@
 #include <ostream>
 #include <stdint.h>
 
-#include <pvfmm_common.hpp>
+#include "pvfmm_common.hpp"
 
 #ifndef _PVFMM_MORTONID_HPP_
 #define _PVFMM_MORTONID_HPP_
@@ -91,6 +91,6 @@ class MortonId{
 
 }//end namespace
 
-#include <mortonid.txx>
+#include "mortonid.txx"
 
 #endif //_PVFMM_MORTONID_HPP_

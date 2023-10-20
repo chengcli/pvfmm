@@ -10,10 +10,10 @@
 #include <stdint.h>
 #include <functional>
 
-#include <pvfmm_common.hpp>
-#include <tree_node.hpp>
-#include <mpi_node.hpp>
-#include <vector.hpp>
+#include "pvfmm_common.hpp"
+#include "tree_node.hpp"
+#include "mpi_node.hpp"
+#include "vector.hpp"
 
 #ifndef _PVFMM_CHEB_NODE_HPP_
 #define _PVFMM_CHEB_NODE_HPP_
@@ -230,7 +230,7 @@ class Cheb_Node: public MPI_Node<Real_t>{
 
 }//end namespace
 
-#include <cheb_node.txx>
+#include "cheb_node.txx"
 
 #endif //_PVFMM_CHEB_NODE_HPP_
 

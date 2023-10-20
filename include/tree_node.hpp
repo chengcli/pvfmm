@@ -6,7 +6,7 @@
  * node.
  */
 
-#include <pvfmm_common.hpp>
+#include "pvfmm_common.hpp"
 
 #ifndef _PVFMM_TREE_NODE_HPP_
 #define _PVFMM_TREE_NODE_HPP_

@@ -16,9 +16,9 @@
 #endif
 #endif
 
-#include <pvfmm_common.hpp>
-#include <mem_mgr.hpp>
-#include <matrix.hpp>
+#include "pvfmm_common.hpp"
+#include "mem_mgr.hpp"
+#include "matrix.hpp"
 
 #ifndef _PVFMM_FFT_WRAPPER_
 #define _PVFMM_FFT_WRAPPER_

@@ -10,8 +10,8 @@
 #include <cmath>
 #include <cassert>
 
-#include <parUtils.h>
-#include <ompUtils.h>
+#include "parUtils.h"
+#include "ompUtils.h"
 
 namespace pvfmm{
 

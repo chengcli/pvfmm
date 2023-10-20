@@ -7,8 +7,8 @@
 
 #include <cassert>
 
-#include <mem_mgr.hpp>
-#include <mpi_node.hpp>
+#include "mem_mgr.hpp"
+#include "mpi_node.hpp"
 
 namespace pvfmm{
 

@@ -14,8 +14,8 @@
 #include <cublas_v2.h>
 #endif
 
-#include <pvfmm_common.hpp>
-#include <vector.hpp>
+#include "pvfmm_common.hpp"
+#include "vector.hpp"
 
 #ifndef _PVFMM_DEVICE_WRAPPER_HPP_
 #define _PVFMM_DEVICE_WRAPPER_HPP_
@@ -123,6 +123,6 @@ transfer, use:
 #pragma offload_attribute(pop)
 #endif
 
-#include <device_wrapper.txx>
+#include "device_wrapper.txx"
 
 #endif //_PVFMM_DEVICE_WRAPPER_HPP_

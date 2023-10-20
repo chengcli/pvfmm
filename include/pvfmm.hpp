@@ -10,10 +10,10 @@
 #include <cstdlib>
 #include <cmath>
 
-#include <pvfmm_common.hpp>
-#include <fmm_node.hpp>
-#include <cheb_node.hpp>
-#include <fmm_cheb.hpp>
+#include "pvfmm_common.hpp"
+#include "fmm_node.hpp"
+#include "cheb_node.hpp"
+#include "fmm_cheb.hpp"
 
 #ifndef _PVFMM_HPP_
 #define _PVFMM_HPP_
@@ -314,6 +314,6 @@ void PtFMM_Evaluate(const PtFMM_Tree<Real>* tree, std::vector<Real>& trg_val, si
 
 }
 
-#include <pvfmm.txx>
+#include "pvfmm.txx"
 
 #endif //_PVFMM_HPP_

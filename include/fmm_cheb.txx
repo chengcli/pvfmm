@@ -14,11 +14,11 @@
 #include <sys/stat.h>
 #endif
 
-#include <dtypes.h>
-#include <parUtils.h>
-#include <cheb_utils.hpp>
-#include <mem_mgr.hpp>
-#include <profile.hpp>
+#include "dtypes.h"
+#include "parUtils.h"
+#include "cheb_utils.hpp"
+#include "mem_mgr.hpp"
+#include "profile.hpp"
 
 namespace pvfmm{
 

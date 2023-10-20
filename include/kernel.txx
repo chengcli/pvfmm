@@ -11,12 +11,12 @@
 #include <vector>
 #include <sctl.hpp>
 
-#include <mem_mgr.hpp>
-#include <profile.hpp>
-#include <vector.hpp>
-#include <matrix.hpp>
-#include <precomp_mat.hpp>
-#include <cheb_utils.hpp>
+#include "mem_mgr.hpp"
+#include "profile.hpp"
+#include "vector.hpp"
+#include "matrix.hpp"
+#include "precomp_mat.hpp"
+#include "cheb_utils.hpp"
 
 namespace pvfmm{
 

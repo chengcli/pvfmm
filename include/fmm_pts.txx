@@ -42,8 +42,8 @@
 #include <immintrin.h>
 #endif
 
-#include <profile.hpp>
-#include <cheb_utils.hpp>
+#include "profile.hpp"
+#include "cheb_utils.hpp"
 
 namespace pvfmm{
 
@@ -1790,7 +1790,7 @@ void FMM_Pts<FMMNode>::SetupInterac(SetupData<Real_t>& setup_data, bool device){
 }
 
 #if defined(PVFMM_HAVE_CUDA)
-#include <fmm_pts_gpu.hpp>
+#include "fmm_pts_gpu.hpp"
 
 template <class Real_t, int SYNC>
 void EvalListGPU(SetupData<Real_t>& setup_data, Vector<char>& dev_buffer, MPI_Comm& comm) {

@@ -17,7 +17,7 @@
 #include <map>
 //#include <mutex>
 
-#include <pvfmm_common.hpp>
+#include "pvfmm_common.hpp"
 
 #ifndef _PVFMM_MEM_MGR_HPP_
 #define _PVFMM_MEM_MGR_HPP_
@@ -161,7 +161,7 @@ template <class ValueType> inline ValueType* copy(ValueType* destination, const 
 }//end namespace
 }//end namespace
 
-#include <mem_mgr.txx>
+#include "mem_mgr.txx"
 
 #ifdef __INTEL_OFFLOAD
 #pragma offload_attribute(pop)

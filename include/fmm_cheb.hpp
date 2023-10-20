@@ -10,13 +10,13 @@
 #include <vector>
 #include <cstdlib>
 
-#include <pvfmm_common.hpp>
-#include <precomp_mat.hpp>
-#include <mem_mgr.hpp>
-#include <fmm_pts.hpp>
-#include <vector.hpp>
-#include <matrix.hpp>
-#include <kernel.hpp>
+#include "pvfmm_common.hpp"
+#include "precomp_mat.hpp"
+#include "mem_mgr.hpp"
+#include "fmm_pts.hpp"
+#include "vector.hpp"
+#include "matrix.hpp"
+#include "kernel.hpp"
 
 #ifndef _PVFMM_FMM_CHEB_HPP_
 #define _PVFMM_FMM_CHEB_HPP_
@@ -136,7 +136,7 @@ class FMM_Cheb: public FMM_Pts<FMMNode>{
 
 }//end namespace
 
-#include <fmm_cheb.txx>
+#include "fmm_cheb.txx"
 
 #endif //_PVFMM_FMM_CHEB_HPP_
 

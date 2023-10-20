@@ -8,11 +8,11 @@
 #include <vector>
 #include <cstdlib>
 
-#include <pvfmm_common.hpp>
-#include <tree_node.hpp>
-#include <mpi_node.hpp>
-#include <fmm_pts.hpp>
-#include <vector.hpp>
+#include "pvfmm_common.hpp"
+#include "tree_node.hpp"
+#include "mpi_node.hpp"
+#include "fmm_pts.hpp"
+#include "vector.hpp"
 
 #ifndef _PVFMM_FMM_NODE_HPP_
 #define _PVFMM_FMM_NODE_HPP_
@@ -181,6 +181,6 @@ class FMM_Node: public Node{
 
 }//end namespace
 
-#include <fmm_node.txx>
+#include "fmm_node.txx"
 
 #endif //_PVFMM_FMM_NODE_HPP_

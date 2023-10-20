@@ -9,7 +9,7 @@
 #include <cstdlib>
 #include <stdint.h>
 
-#include <pvfmm_common.hpp>
+#include "pvfmm_common.hpp"
 
 #ifndef _PVFMM_VECTOR_HPP_
 #define _PVFMM_VECTOR_HPP_
@@ -100,6 +100,6 @@ class Vector{
 #pragma offload_attribute(pop)
 #endif
 
-#include <vector.txx>
+#include "vector.txx"
 
 #endif //_PVFMM_VECTOR_HPP_

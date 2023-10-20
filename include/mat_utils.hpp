@@ -5,7 +5,7 @@
  * \brief This file contains BLAS and LAPACK wrapper functions.
  */
 
-#include <pvfmm_common.hpp>
+#include "pvfmm_common.hpp"
 
 #if defined(PVFMM_HAVE_CUDA)
 #include <cuda_runtime_api.h>

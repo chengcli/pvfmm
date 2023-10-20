@@ -15,10 +15,10 @@
 #include <iostream>
 #include <algorithm>
 
-#include <dtypes.h>
-#include <ompUtils.h>
-#include <mem_mgr.hpp>
-#include <matrix.hpp>
+#include "dtypes.h"
+#include "ompUtils.h"
+#include "mem_mgr.hpp"
+#include "matrix.hpp"
 
 namespace pvfmm{
 namespace par{

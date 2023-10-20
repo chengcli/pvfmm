@@ -9,10 +9,10 @@
 #include <string>
 #include <cstdlib>
 
-#include <pvfmm_common.hpp>
-#include <mem_mgr.hpp>
-#include <vector.hpp>
-#include <matrix.hpp>
+#include "pvfmm_common.hpp"
+#include "mem_mgr.hpp"
+#include "vector.hpp"
+#include "matrix.hpp"
 
 #ifndef _PVFMM_FMM_KERNEL_HPP_
 #define _PVFMM_FMM_KERNEL_HPP_
@@ -215,7 +215,7 @@ struct HelmholtzKernel{
 #pragma offload_attribute(pop)
 #endif
 
-#include <kernel.txx>
+#include "kernel.txx"
 
 #endif //_PVFMM_FMM_KERNEL_HPP_
 

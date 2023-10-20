@@ -9,8 +9,8 @@
 #include <cassert>
 #include <algorithm>
 
-#include <cheb_utils.hpp>
-#include <matrix.hpp>
+#include "cheb_utils.hpp"
+#include "matrix.hpp"
 
 namespace pvfmm{
 

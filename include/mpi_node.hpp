@@ -11,10 +11,10 @@
 #include <cstdlib>
 #include <stdint.h>
 
-#include <pvfmm_common.hpp>
-#include <tree_node.hpp>
-#include <mortonid.hpp>
-#include <vector.hpp>
+#include "pvfmm_common.hpp"
+#include "tree_node.hpp"
+#include "mortonid.hpp"
+#include "vector.hpp"
 
 #ifndef _PVFMM_MPI_NODE_HPP_
 #define _PVFMM_MPI_NODE_HPP_
@@ -188,6 +188,6 @@ class MPI_Node: public TreeNode{
 
 }//end namespace
 
-#include <mpi_node.txx>
+#include "mpi_node.txx"
 
 #endif //_PVFMM_MPI_NODE_HPP_
