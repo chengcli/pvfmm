@@ -12,7 +12,7 @@
 #include <vector>
 #include <cstdlib>
 
-#include <vector.hpp>
+#include "vector.hpp"
 
 #ifndef __PVFMM_PAR_UTILS_H_
 #define __PVFMM_PAR_UTILS_H_
